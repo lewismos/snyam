@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -9,7 +8,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-
   <body>
     <div class="header">
   <a href="#default" class="logo">SNYAM.av.ke</a>
@@ -18,11 +16,10 @@
       <a href="products.html">products</a>
     <a href="contact.html">Contact</a>
     <a href="about.html">About</a>
-    <p>
-<a href="cart.html">
-<img border="0" alt="cart" src="images\cart.jpg" width="30px" height="30px">
-</a>
-<a href="Admin.html">admin</a>
+    <a href="cart.html">
+        <a href="Admin.html">admin</a>
+    <img border="0" alt="cart" src="images\cart.jpg" width="30px" height="30px">
+    </a>
   </div>
 </div>
 <!-- Container for the image gallery -->
@@ -97,37 +94,26 @@
   <button id="myBtn" onclick="myFunction()">Pause</button>
 </div>
 
-<!---featured products--->
-<div class="row">
-
-<div class="column">
-<div class="card">
-<img src="images\iPhone XS Max 512GB.jpeg" alt="iPhone XS Max" width="150px" height="150px">
-<h1>iPhone XS Max</h1>
-<p class="price">$500.99</p>
-<p>iPhone XS Max 512GB</p>
-<p><button>Add to Cart</button></p>
-</div>
 </div>
 <div class="column">
-  <div class="card">
-<img src="images\iPhone 11 Pro.jpeg" alt="iPhone 11 Pro" width="150px" height="150px">
-<h1>iPhone 11 Pro</h1>
-<p class="price">$580.99</p>
-<p>iPhone 11 Pro</p>
-<p><button>Add to Cart</button></p>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+    <input type="submit" value="Submit">
+  </form>
 </div>
 </div>
-<div class="column">
-  <div class="card">
-<img src="images\Samsung Galaxy Watch Active.jpeg" alt="Samsung Galaxy Watch Active" width="150px" height="150px">
-<h1>Samsung Galaxy Watch Active</h1>
-<p class="price">$580.99</p>
-<p><button>Add to Cart</button></p>
 </div>
-</div>
-
-
 
 <style>
 .footer {
@@ -140,46 +126,6 @@
   text-align: center;
 }
 </style>
-<div class="footer">
-  <div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="img1.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO &amp; Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="img2.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="img3.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
 </div>
 <div class="footer">
   <!-- Add font awesome icons -->
@@ -189,12 +135,6 @@
 <!-- Add font awesome icons -->
 <a href="#" class="fa fa-instagram"></a>
 <a href="#" class="fa fa-youtube"></a>
-</div>
 
-    </div>
-  </div>
-</div>
-</div>
-</div>
   </body>
 </html>
