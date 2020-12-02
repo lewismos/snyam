@@ -136,7 +136,7 @@ function myFunction(x) {
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: "";
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -263,7 +263,7 @@ function myFunction(x) {
 }
 
 .price {
-  color: grey;
+  color: lightgrey;
   font-size: 22px;
 }
 
